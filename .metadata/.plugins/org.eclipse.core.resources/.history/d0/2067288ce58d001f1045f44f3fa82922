@@ -18,7 +18,7 @@ public class baitap06 {
 		 * 		+ Chuyển đổi USD sang VNĐ theo công thức: vnd = usd * 23500
 		 * 		+ In ra kết quả
 		 */
-		
+
 		final double EXCHANGE_RATE = 23500;
 		
         Scanner scanner = new Scanner(System.in);
