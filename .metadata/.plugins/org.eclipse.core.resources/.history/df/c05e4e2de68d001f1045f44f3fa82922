@@ -21,22 +21,22 @@ public class baitap04 {
 		
 		final int NUM_COUNT = 5;
 		
-		Scanner scanner = new Scanner(System.in);
-		
-		int sum = 0;
-		int number;
-		
-		// Nhập 5 số và tính tổng
-		for (int i = 1; i <= NUM_COUNT; i++) {
-		    System.out.print("Nhập số thứ " + i + ": ");
-		    number = scanner.nextInt();
-		    sum += number;
-		}
-		
-		// Tính giá trị trung bình (ép kiểu để không gặp lỗi chia nguyên)
-		double average = (double)sum / NUM_COUNT;
-		
-		System.out.printf("Giá trị trung bình của 5 số là: " + average);
+        Scanner scanner = new Scanner(System.in);
+        
+        int sum = 0;
+        int number;
+        
+        // Nhập 5 số và tính tổng
+        for (int i = 1; i <= NUM_COUNT; i++) {
+            System.out.print("Nhập số thứ " + i + ": ");
+            number = scanner.nextInt();
+            sum += number;
+        }
+        
+        // Tính giá trị trung bình (ép kiểu để không gặp lỗi chia nguyên)
+        double average = (double)sum / NUM_COUNT;
+
+        System.out.printf("Giá trị trung bình của 5 số là: " + average);
 	}
 
 }
