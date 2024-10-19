@@ -1,0 +1,29 @@
+package baitaplon01;
+
+import java.util.Scanner;
+
+public class baitap04 {
+
+	public static void main(String[] args) {
+		
+		final int NUM_COUNT = 5; // Hằng số số lượng số cần nhập
+        Scanner scanner = new Scanner(System.in);
+        
+        int sum = 0; // Biến tích lũy để tính tổng
+        int number; // Biến để lưu trữ từng số được nhập
+        
+        // Nhập 5 số và tính tổng
+        for (int i = 1; i <= NUM_COUNT; i++) {
+            System.out.print("Nhập số thứ " + i + ": ");
+            number = scanner.nextInt();
+            sum += number; // Cộng dồn vào tổng
+        }
+        
+        // Tính giá trị trung bình (ép kiểu để không gặp lỗi chia nguyên)
+        double average = (double)sum / NUM_COUNT;
+
+        // Xuất kết quả
+        System.out.printf("Giá trị trung bình của 5 số là: %.2f\n", average);
+	}
+
+}

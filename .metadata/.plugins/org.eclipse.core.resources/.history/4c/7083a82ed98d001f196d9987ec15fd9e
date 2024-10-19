@@ -1,0 +1,42 @@
+package baitaplon01;
+
+import java.util.Scanner;
+
+public class baitap02 {
+
+	public static void main(String[] args) {
+		
+		/**
+		 * Đề bài: 
+		 * Viết chương trình tính giá trị đơn thức P(x) = ax^n (a là số thực, n là số nguyên không âm) với x8 cho trước. (Sử dụng thư viện Math)
+		 * 
+		 */
+		
+		Scanner scanner = new Scanner(System.in);
+
+        // Nhập giá trị của a
+        System.out.print("Nhập a (số thực): ");
+        double a = scanner.nextDouble();
+
+        // Nhập giá trị của n
+        System.out.print("Nhập n (số nguyên không âm): ");
+        int n = scanner.nextInt();
+
+        // Kiểm tra n có phải là số nguyên không âm
+        if (n < 0) {
+            System.out.println("n phải là số nguyên không âm.");
+            return;
+        }
+
+        // Nhập giá trị của x
+        System.out.print("Nhập x: ");
+        double x = scanner.nextDouble();
+
+        // Tính giá trị của P(x) = ax^n
+        double result = a * Math.pow(x, n);
+
+        // Xuất kết quả ra màn hình
+        System.out.println("Giá trị của P(x) = " + result);
+	}
+
+}
