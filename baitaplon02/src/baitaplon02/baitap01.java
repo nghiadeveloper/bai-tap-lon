@@ -24,7 +24,6 @@ public class baitap01 {
 		System.out.print("Nhập số nguyên m: ");
 		int m = scanner.nextInt();
 		
-		
 		System.out.print("Nhập số nguyên n: ");
 		int n = scanner.nextInt();
 		

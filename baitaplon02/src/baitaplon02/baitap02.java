@@ -19,9 +19,9 @@ public class baitap02 {
 		 * 		+ In ra các số theo thứ tự tăng dần
 		 */
 		
-			Scanner scanner = new Scanner(System.in);
-		  
-			System.out.print("Nhập số nguyên thứ nhất: ");
+		Scanner scanner = new Scanner(System.in);
+	  
+		System.out.print("Nhập số nguyên thứ nhất: ");
 		int num1 = scanner.nextInt();
 		
 		System.out.print("Nhập số nguyên thứ hai: ");

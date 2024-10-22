@@ -26,7 +26,6 @@ public class baitap03 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		// Nhập 3 số nguyên
 		System.out.print("Nhập số nguyên thứ nhất: ");
 		int num1 = scanner.nextInt();
 		
@@ -58,7 +57,6 @@ public class baitap03 {
 		    }
 		}
 		
-		// Xuất kết quả theo lựa chọn
 		if (choice == 1) {
 		    // Xuất theo thứ tự tăng dần
 		    System.out.println("Các số theo thứ tự tăng dần: " + nums[0] + ", " + nums[1] + ", " + nums[2]);
