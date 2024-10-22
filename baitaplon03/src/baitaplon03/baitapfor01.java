@@ -22,31 +22,31 @@ public class baitapfor01 {
 		
 		// Vòng lặp for
 		System.out.println("Các số chẵn nhỏ hơn 100:");
-        for (int i = 2; i < 100; i += 2) {
-            System.out.print(i + " ");
-        }
-
-        System.out.println("\n\nCác số lẻ nhỏ hơn 100:");
-        for (int i = 1; i < 100; i += 2) {
-            System.out.print(i + " ");
-        }
-        
-
-        
-        // Vòng lặp while
-        System.out.println("\n\nCác số chẵn nhỏ hơn 100:");
-        int i = 2;
-        while (i < 100) {
-            System.out.print(i + " ");
-            i += 2;
-        }
-
-        System.out.println("\n\nCác số lẻ nhỏ hơn 100:");
-        i = 1;
-        while (i < 100) {
-            System.out.print(i + " ");
-            i += 2;
-        }
+		for (int i = 2; i < 100; i += 2) {
+		    System.out.print(i + " ");
+		}
+		
+		System.out.println("\n\nCác số lẻ nhỏ hơn 100:");
+		for (int i = 1; i < 100; i += 2) {
+		    System.out.print(i + " ");
+		}
+		
+		
+		
+		// Vòng lặp while
+		System.out.println("\n\nCác số chẵn nhỏ hơn 100:");
+		int i = 2;
+		while (i < 100) {
+		    System.out.print(i + " ");
+		    i += 2;
+		}
+		
+		System.out.println("\n\nCác số lẻ nhỏ hơn 100:");
+		i = 1;
+		while (i < 100) {
+		    System.out.print(i + " ");
+		    i += 2;
+		}
 	}
 
 }
