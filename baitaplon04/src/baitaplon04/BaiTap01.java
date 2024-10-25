@@ -62,7 +62,7 @@ public class BaiTap01 {
 	/**
 	 * b. Tìm số lớn nhất và vị trí của nó trong mảng
 	 *
-	 *	Theo mô hình 3 khối ta có:
+	 * Theo mô hình 3 khối ta có:
 	 * - Đầu vào: Từ các giá trị mà người dùng nhập vào cho mảng thực hiện tìm số lớn nhất và vị trí của nó trong mảng
 	 * - Đầu ra: Tìm số lớn nhất và vị trí của nó trong mảng
 	 * - Xử lý: 
@@ -194,11 +194,11 @@ public class BaiTap01 {
 	 * - Đầu vào: Từ các giá trị mà người dùng nhập vào cho mảng thực hiện đếm có bao nhiêu số âm
 	 * - Đầu ra: Đếm có bao nhiêu số âm
 	 * - Xử lý: 
-     * 		+ Khai báo biến count với giá trị 0 dùng để lưu trữ số lượng số âm trong mảng
-     * 		+ Sử dụng vòng lặp foreach để duyệt qua từng phần tử trong mảng. Mỗi phần tử được gán cho biến num trong mỗi lần lặp
-     * 		+ Kiểm tra xem số hiện tại (num) có phải là số âm hay không?
-     * 			. Nếu thỏa điều kiện thì biến count sẽ được tăng lên 1 (count++)
-     * 		+ Trả về count
+	 * 		+ Khai báo biến count với giá trị 0 dùng để lưu trữ số lượng số âm trong mảng
+	 * 		+ Sử dụng vòng lặp foreach để duyệt qua từng phần tử trong mảng. Mỗi phần tử được gán cho biến num trong mỗi lần lặp
+	 * 		+ Kiểm tra xem số hiện tại (num) có phải là số âm hay không?
+	 * 			. Nếu thỏa điều kiện thì biến count sẽ được tăng lên 1 (count++)
+	 * 		+ Trả về count
      */
     
 	public static int countNegative(int[] array) {
