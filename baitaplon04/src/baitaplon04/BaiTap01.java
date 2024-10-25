@@ -282,38 +282,37 @@ public class BaiTap01 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Nhập số lượng phần tử n: ");
-		
 		int n = scanner.nextInt();
-
-        // a. Viết hàm nhập và hàm xuất
-        int[] array = inputArray(n);
-        printArray(array);
-
-        // b. Tìm số lớn nhất và vị trí của nó trong mảng
-        findMax(array);
-        
-        // c. Tìm số âm đầu tiên và vị trí của nó trong mảng
-        findFirstNegative(array);
-        
-        // d. Tìm số âm lớn nhất và vị trí của nó trong mảng
-        findMaxNegative(array);
-        
-        // e. Tính tổng các số chẵn
-        int evenSum = sumEven(array);
-        System.out.println("Tổng các số chẵn trong mảng là: " + evenSum);
-        
-        // f. Đếm có bao nhiêu số âm
-        int negativeCount = countNegative(array);
-        System.out.println("Có " + negativeCount + " số âm trong mảng.");
-        
-        // g. Tổng các số âm
-        int negativeSum = sumNegative(array);
-        System.out.println("Tổng các số âm trong mảng là: " + negativeSum);
-
-        // h. Cho người dùng nhập vào x và tìm x có trong mảng đó hay không
-        System.out.print("Nhập số x để kiểm tra: ");
-        int x = scanner.nextInt();
-        findXInArray(array, x);
+		
+		// a. Viết hàm nhập và hàm xuất
+		int[] array = inputArray(n);
+		printArray(array);
+		
+		// b. Tìm số lớn nhất và vị trí của nó trong mảng
+		findMax(array);
+		
+		// c. Tìm số âm đầu tiên và vị trí của nó trong mảng
+		findFirstNegative(array);
+		
+		// d. Tìm số âm lớn nhất và vị trí của nó trong mảng
+		findMaxNegative(array);
+		
+		// e. Tính tổng các số chẵn
+		int evenSum = sumEven(array);
+		System.out.println("Tổng các số chẵn trong mảng là: " + evenSum);
+		
+		// f. Đếm có bao nhiêu số âm
+		int negativeCount = countNegative(array);
+		System.out.println("Có " + negativeCount + " số âm trong mảng.");
+		
+		// g. Tổng các số âm
+		int negativeSum = sumNegative(array);
+		System.out.println("Tổng các số âm trong mảng là: " + negativeSum);
+		
+		// h. Cho người dùng nhập vào x và tìm x có trong mảng đó hay không
+		System.out.print("Nhập số x để kiểm tra: ");
+		int x = scanner.nextInt();
+		findXInArray(array, x);
         
 	}
 
