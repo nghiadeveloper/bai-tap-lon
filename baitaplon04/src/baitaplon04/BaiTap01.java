@@ -282,7 +282,8 @@ public class BaiTap01 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Nhập số lượng phần tử n: ");
-        int n = scanner.nextInt();
+		
+		int n = scanner.nextInt();
 
         // a. Viết hàm nhập và hàm xuất
         int[] array = inputArray(n);
@@ -313,6 +314,7 @@ public class BaiTap01 {
         System.out.print("Nhập số x để kiểm tra: ");
         int x = scanner.nextInt();
         findXInArray(array, x);
+        
 	}
 
 }
