@@ -135,7 +135,6 @@ public class BaiTap {
 		    System.out.println("Giá trị " + x + " không có trong mảng.");
 		}
 
-
 	}
 
 }
