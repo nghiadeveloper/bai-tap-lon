@@ -21,7 +21,7 @@ public class BaiTap {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		// a. Nhập và xuất
+		// a. Viết hàm nhập và hàm xuất
 		System.out.print("Nhập số lượng phần tử n: ");
 		int n = scanner.nextInt();
 		int[] array = new int[n];
@@ -40,7 +40,7 @@ public class BaiTap {
 		
 		
 		
-		// b. Tìm số lớn nhất và vị trí của nó
+		// b. Tìm số lớn nhất và vị trí của nó trong mảng
 		int max = array[0];
 		int maxIndex = 0;
 		for (int i = 1; i < n; i++) {
@@ -53,7 +53,7 @@ public class BaiTap {
 		
 		
 		
-		// c. Tìm số âm đầu tiên và vị trí của nó
+		// c. Tìm số âm đầu tiên và vị trí của nó trong mảng
 		int firstNegativeIndex = -1;
 		for (int i = 0; i < n; i++) {
 		    if (array[i] < 0) {
@@ -69,7 +69,7 @@ public class BaiTap {
 		
 		
 		
-		// d. Tìm số âm lớn nhất và vị trí của nó
+		// d. Tìm số âm lớn nhất và vị trí của nó trong mảng
 		int maxNegative = Integer.MIN_VALUE;
 		int maxNegativeIndex = -1;
 		for (int i = 0; i < n; i++) {
@@ -119,7 +119,7 @@ public class BaiTap {
 		
 		
 		
-		// h. Tìm x có trong mảng hay không
+		// h. Cho người dùng nhập vào x và tìm x có trong mảng đó hay không?
 		System.out.print("Nhập giá trị x để tìm trong mảng: ");
 		int x = scanner.nextInt();
 		boolean found = false;
