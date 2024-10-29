@@ -18,10 +18,10 @@ public class BaiTap01 {
 		int number = scanner.nextInt();
         
 		if (number >= 0) {
-            System.out.println("Số " + number + " là số nguyên dương");
-        } else {
-            System.out.println("Số " + number + " là số nguyên âm");
-        }
+			System.out.println("Số " + number + " là số nguyên dương");
+		} else {
+			System.out.println("Số " + number + " là số nguyên âm");
+		}
 		
 	}
 
