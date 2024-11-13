@@ -16,7 +16,7 @@ public class BaiTap01 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Nhập vào một số nguyên: ");
 		int number = scanner.nextInt();
-        
+
 		if (number >= 0) {
 			System.out.println("Số " + number + " là số nguyên dương");
 		} else {

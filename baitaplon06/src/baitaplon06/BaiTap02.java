@@ -68,6 +68,7 @@ public class BaiTap02 {
 			default:
 				System.out.println("Lựa chọn không hợp lệ.");
 			}
+
 		}
 
 	}

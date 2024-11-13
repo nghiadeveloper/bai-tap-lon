@@ -20,16 +20,16 @@ public class baitap01 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-        
+
 		System.out.print("Nhập chiều dài cạnh góc vuông thứ nhất (a): ");
 		double a = scanner.nextDouble();
-		
+
 		System.out.print("Nhập chiều dài cạnh góc vuông thứ hai (b): ");
 		double b = scanner.nextDouble();
-		
+
 		// Tính chiều dài cạnh huyền c
 		double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-		
+
 		System.out.printf("Chiều dài cạnh huyền của tam giác vuông là: " + c);
 
 	}

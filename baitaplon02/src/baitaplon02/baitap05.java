@@ -22,34 +22,34 @@ public class baitap05 {
 	 */
 
 	public static void main(String[] args) {
-		
+
 		Scanner scanner = new Scanner(System.in);
-	
-	    System.out.print("Ai đang sử dụng máy? (Bố, Mẹ, Anh trai, Em gái): ");
-	    String hoTen = scanner.nextLine();
-	
-	    String cauChao = chaoHoi(hoTen);
-	    System.out.println(cauChao);
-	
+
+		System.out.print("Ai đang sử dụng máy? (Bố, Mẹ, Anh trai, Em gái): ");
+		String hoTen = scanner.nextLine();
+
+		String cauChao = chaoHoi(hoTen);
+		System.out.println(cauChao);
+
 	}
-	
+
 	public static String chaoHoi(String hoTen) {
-	    switch (hoTen) {
-	        case "Bố":
-	        case "B":
-	            return "Chào Bố! Hôm nay Bố có khỏe không?";
-	        case "Mẹ":
-	        case "M":
-	            return "Chào Mẹ! Mẹ đã nấu ăn gì ngon hôm nay?";
-	        case "Anh trai":
-	        case "A":
-	            return "Chào Anh trai! Hôm nay Anh có dự định gì không?";
-	        case "Em gái":
-	        case "E":
-	            return "Chào Em gái! Em đã hoàn thành bài tập về nhà chưa?";
-	        default:
-	            return "Xin chào! Rất vui được gặp bạn.";
-	    }
+		switch (hoTen) {
+		case "Bố":
+		case "B":
+			return "Chào Bố! Hôm nay Bố có khỏe không?";
+		case "Mẹ":
+		case "M":
+			return "Chào Mẹ! Mẹ đã nấu ăn gì ngon hôm nay?";
+		case "Anh trai":
+		case "A":
+			return "Chào Anh trai! Hôm nay Anh có dự định gì không?";
+		case "Em gái":
+		case "E":
+			return "Chào Em gái! Em đã hoàn thành bài tập về nhà chưa?";
+		default:
+			return "Xin chào! Rất vui được gặp bạn.";
+		}
 	}
 
 }

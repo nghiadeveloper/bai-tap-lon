@@ -22,20 +22,18 @@ public class baitapfor02 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-		
+
 //		Vòng lặp for
 		System.out.print("Nhập n: ");
 		int n = scanner.nextInt();
-		
+
 		int tong = 0;
 		for (int i = 2; i <= n; i += 2) {
-		    tong += i;
+			tong += i;
 		}
-		
+
 		System.out.println("Tổng các số chẵn từ 1 đến " + n + " là: " + tong);
-		
-		
-		
+
 //		Vòng lặp while
 //		System.out.print("Nhập n: ");
 //		int n = scanner.nextInt();
@@ -46,7 +44,7 @@ public class baitapfor02 {
 //		    tong += i;
 //		    i += 2; 
 //		}
-		
+
 		System.out.println("Tổng các số chẵn từ 1 đến " + n + " là: " + tong);
 
 	}

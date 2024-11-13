@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class BaiTap1_2 {
 	
 	public static boolean kiemTraSoNguyenTo(int number) {
-	    if (number <= 1) {
-	        return false;
-	    }
-	    for (int i = 2; i <= number - 1; i++) {
-	        if (number % i == 0) {
-	            return false;
-	        }
-	    }
-	    return true;
+		if (number <= 1) {
+			return false;
+		}
+		for (int i = 2; i <= number - 1; i++) {
+			if (number % i == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 	public static void main(String[] args) {
@@ -26,14 +26,14 @@ public class BaiTap1_2 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("Nhập vào một số nguyên: ");
 		int number = scanner.nextInt();
-		
+
 		if (kiemTraSoNguyenTo(number) == true) {
-		    System.out.println(number + " là số nguyên tố.");
+			System.out.println(number + " là số nguyên tố.");
 		} else {
-		    System.out.println(number + " không phải là số nguyên tố.");
+			System.out.println(number + " không phải là số nguyên tố.");
 		}
 
 	}

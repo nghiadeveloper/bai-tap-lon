@@ -20,16 +20,16 @@ public class baitap01 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("Nhập số nguyên m: ");
 		int m = scanner.nextInt();
-		
+
 		System.out.print("Nhập số nguyên n: ");
 		int n = scanner.nextInt();
-		
+
 		// Tìm số lớn nhất: Sử dụng toán tử điều kiện (toán tử ba ngôi)
 		int max = (m > n) ? m : n;
-		
+
 		System.out.println("Số nguyên lớn nhất là: " + max);
 
 	}

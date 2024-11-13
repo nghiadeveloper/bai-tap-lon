@@ -24,21 +24,22 @@ public class baitap02 {
 
 		System.out.print("Nhập a (số thực): ");
 		double a = scanner.nextDouble();
-		
+
 		System.out.print("Nhập n (số nguyên không âm): ");
 		int n = scanner.nextInt();
-		
+
 		if (n < 0) {
-		    System.out.println("n phải là số nguyên không âm.");
-		    return;
+			System.out.println("n phải là số nguyên không âm.");
+			return;
 		}
-		
+
 		double x = 8;
-		
+
 		// Tính giá trị của P(x) = ax^n
 		double result = a * Math.pow(x, n);
-		
+
 		System.out.println("Giá trị của P(x) = " + result);
+		
 	}
 
 }

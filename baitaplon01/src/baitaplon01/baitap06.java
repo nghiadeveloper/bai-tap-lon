@@ -20,15 +20,15 @@ public class baitap06 {
 		 */
 		
 		final double EXCHANGE_RATE = 23500;
-		
+
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("Nhập vào số USD: ");
 		double usd = scanner.nextDouble();
-		
+
 		// Tính ra tiền VNĐ
 		double vnd = usd * EXCHANGE_RATE;
-		
+
 		System.out.printf("Số tiền tương ứng là: " + vnd + " VNĐ");
 
 	}

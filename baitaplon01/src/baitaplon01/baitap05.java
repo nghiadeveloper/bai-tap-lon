@@ -22,10 +22,10 @@ public class baitap05 {
 
 		System.out.print("Nhập vào độ C: ");
 		double celsius = scanner.nextDouble();
-		
+
 		// Chuyển đổi sang độ F
 		double fahrenheit = (celsius * 1.8) + 32;
-		
+
 		System.out.printf("Độ F tương ứng là: " + fahrenheit);
 
 	}

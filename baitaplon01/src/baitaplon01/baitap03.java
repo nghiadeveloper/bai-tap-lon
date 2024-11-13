@@ -20,17 +20,17 @@ public class baitap03 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("Nhập vào một số nguyên dương có 2 ký số (10-99): ");
 		int n = scanner.nextInt();
-		
+
 		// Tách số nguyên ra thành 2 ký số
 		int firstDigit = n / 10;
 		int secondDigit = n % 10;
-		
+
 		// Tính tổng
-		int sum = firstDigit + secondDigit; 
-		
+		int sum = firstDigit + secondDigit;
+
 		System.out.println("Tổng của 2 ký số là: " + sum);
 
 	}

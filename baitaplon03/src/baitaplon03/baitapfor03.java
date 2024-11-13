@@ -21,7 +21,6 @@ public class baitapfor03 {
 		 * 		+ In ra kết quả số lượng các số chia hết cho 3
 		 */
 		
-		
 //		Vòng lặp for
 //		int count = 0;
 //		for (int i = 0; i <= 1000; i++) {
@@ -30,17 +29,15 @@ public class baitapfor03 {
 //		    }
 //		}
 //		System.out.println("Số lượng số chia hết cho 3 từ 0 đến 1000 là: " + count);
-        
-        
-		
+
 //		Vòng lặp while
 		int count = 0;
 		int i = 0;
 		while (i <= 1000) {
-		    if (i % 3 == 0) {
-		        count++;
-		    }
-		    i++;
+			if (i % 3 == 0) {
+				count++;
+			}
+			i++;
 		}
 		System.out.println("Số lượng số chia hết cho 3 từ 0 đến 1000 là: " + count);
 	}

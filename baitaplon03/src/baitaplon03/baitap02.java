@@ -24,20 +24,21 @@ public class baitap02 {
 		 */
 
 		Scanner scanner = new Scanner(System.in);
-		
+
 		int tong = 0;
 		System.out.println("Nhập các số lớn hơn 0 để tính tổng, nhập 0 hoặc số âm để dừng:");
-		
+
 		while (true) {
-		    System.out.print("Nhập số: ");
-		    int so = scanner.nextInt();
-		
-		    if (so <= 0) {
-		        break;
-		    }
-		    // Cộng dồn vào tổng
-		    tong += so;
+			System.out.print("Nhập số: ");
+			int so = scanner.nextInt();
+
+			if (so <= 0) {
+				break;
+			}
+			// Cộng dồn vào tổng
+			tong += so;
 		}
+
 		System.out.println("Tổng các số lớn hơn 0 là: " + tong);
 		
 	}

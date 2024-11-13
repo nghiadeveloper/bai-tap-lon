@@ -29,20 +29,21 @@ public class baitap04 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("Nhập vào số nguyên có hai chữ số: ");
 		int number = scanner.nextInt();
-		
+
 		if (number < 10 || number > 99) {
-		    System.out.println("Vui lòng nhập số nguyên có đúng hai chữ số.");
+			System.out.println("Vui lòng nhập số nguyên có đúng hai chữ số.");
 		} else {
-		    String[] ones = {"", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"};
-		    String[] tens = {"", "mười", "hai mươi", "ba mươi", "bốn mươi", "năm mươi", "sáu mươi", "bảy mươi", "tám mươi", "chín mươi"};
-		
-		    int tensDigit = number / 10;
-		    int onesDigit = number % 10;
-		
-		    System.out.println("Cách đọc của số " + number + " là: " + tens[tensDigit] + " " + ones[onesDigit]);
+			String[] ones = { "", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín" };
+			String[] tens = { "", "mười", "hai mươi", "ba mươi", "bốn mươi", "năm mươi", "sáu mươi", "bảy mươi",
+					"tám mươi", "chín mươi" };
+
+			int tensDigit = number / 10;
+			int onesDigit = number % 10;
+
+			System.out.println("Cách đọc của số " + number + " là: " + tens[tensDigit] + " " + ones[onesDigit]);
 		}
 
 	}

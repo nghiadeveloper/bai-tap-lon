@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class BaiTap01 {
 	
 	public static int findMax(int a, int b, int c) {
-	    int max = a; 
-	    if (b > max) {
-	        max = b;
-	    }
-	    if (c > max) {
-	        max = c; 
-	    }
-	    return max;
+		int max = a;
+		if (b > max) {
+			max = b;
+		}
+		if (c > max) {
+			max = c;
+		}
+		return max;
 	}
 
 	public static void main(String[] args) {
@@ -23,16 +23,16 @@ public class BaiTap01 {
 		 */
 		
 		Scanner scanner = new Scanner(System.in);
-	        
+
 		System.out.print("Nhập số a: ");
 		int a = scanner.nextInt();
-		
+
 		System.out.print("Nhập số b: ");
 		int b = scanner.nextInt();
-		
+
 		System.out.print("Nhập số c: ");
 		int c = scanner.nextInt();
-		
+
 		int max = findMax(a, b, c);
 
 		System.out.println("Số lớn nhất là: " + max);

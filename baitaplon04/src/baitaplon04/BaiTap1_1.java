@@ -17,9 +17,9 @@ public class BaiTap1_1 {
 		int number = scanner.nextInt();
 
 		if (number % 2 == 0) {
-		    System.out.println("Số " + number + " là số chẵn");
+			System.out.println("Số " + number + " là số chẵn");
 		} else {
-		    System.out.println("Số " + number + " là số lẻ");
+			System.out.println("Số " + number + " là số lẻ");
 		}
 		
 	}
